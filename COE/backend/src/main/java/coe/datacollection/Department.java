@@ -1,9 +1,7 @@
 package coe.datacollection;
 
-import lombok.Data;
 import jakarta.persistence.*;
 
-@Data
 @Entity
 @Table(name = "_dept", uniqueConstraints = {@UniqueConstraint(columnNames = {"id"})})
 public class Department {
@@ -14,4 +12,21 @@ public class Department {
 
     @Column(name = "_dept", nullable = false)
     private String deptName;
+
+    // Standard getters and setters
+    public int getId() {
+        return deptId;
+    }
+
+    public void setId(int id) {
+        this.deptId = id;
+    }
+
+    public String getDepartment() {
+        return deptName;
+    }
+
+    public void setDepartment(String dept) {
+        this.deptName = dept;
+    }
 }

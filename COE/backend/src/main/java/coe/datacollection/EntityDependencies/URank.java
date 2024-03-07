@@ -19,26 +19,6 @@ public class URank {
     @Column(name = "_rank")
     private String rank;
 
-    public URank() {
-    }
-
-    public URank(String value) {
-        if (value.equals("Instructor")) {
-            setId(1);
-        } else if (value.equals("Assistant Professor")) {
-            setId(2);
-        } else if (value.equals("Associate Professor")) {
-            setId(3);
-        } else if (value.equals("Professor")) {
-            setId(4);
-        } else if (value.equals("Distinguished Professor")) {
-            setId(5);
-        } else {
-            throw new IllegalArgumentException("Invalid rank: " + value);
-        }
-        rank = value;
-    }  
-
     // setters and getters
 
     public int getId() {
@@ -54,19 +34,6 @@ public class URank {
     }
 
     public void setRank(String x) {
-        if (x.equals("Instructor")) {
-            setId(1);
-        } else if (x.equals("Assistant Professor")) {
-            setId(2);
-        } else if (x.equals("Associate Professor")) {
-            setId(3);
-        } else if (x.equals("Professor")) {
-            setId(4);
-        } else if (x.equals("Distinguished Professor")) {
-            setId(5);
-        } else {
-            throw new IllegalArgumentException("Invalid rank: " + x);
-        }
-        rank = x;
+        this.rank = x;
     }
 }

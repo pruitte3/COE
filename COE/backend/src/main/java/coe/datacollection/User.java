@@ -6,130 +6,110 @@ import coe.datacollection.EntityDependencies.UServices;
 import coe.datacollection.EntityDependencies.CLoad;
 import coe.datacollection.EntityDependencies.URank;
 import coe.datacollection.EntityDependencies.UStatus;
+
 import jakarta.persistence.*;
+
 import lombok.Data;
+
 import java.util.List;
+
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 @Data
 @Entity
-@Table(name = "general_info", uniqueConstraints = {@UniqueConstraint(columnNames = {"uid"})})
-@SecondaryTable(name="research_scholarly", pkJoinColumns=@PrimaryKeyJoinColumn(name="uid"))
-public class User 
-{
-    public User() {
-        // default constructor
-    }
-
+@Table(name = "users", uniqueConstraints = {@UniqueConstraint(columnNames = {"uid"})})
+//@SecondaryTable(name="research_scholarly", 
+//        pkJoinColumns=@PrimaryKeyJoinColumn(name="uid"))
+public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "uid", table = "general_info", nullable = false)
+	@Column(name = "uid", nullable = false)
     private Long userId;
 
-    @Column(name = "last_name", table = "general_info")
+    // fields from users
+    @Column(name = "last_name")
     private String lastName;
 
-    @Column(name = "first_name", table = "general_info")
+    @Column(name = "first_name")
     private String firstName;
 
-    @Column(name = "username", table = "general_info")
-    private String username;
+    @Column(name = "pin")
+    private char[] pin;
 
-    @Column(name = "pin", table = "general_info")
-    private String pin;
-
-    @ManyToOne
-    @JoinColumn(name = "_dept", table = "general_info", nullable = false)
-    private Department department;
-
-    @ManyToOne(cascade = CascadeType.PERSIST)
-    @JoinColumn(name = "_user_role", table = "general_info", nullable = false)
-    private UserRole userRole;
+    @Column(name = "salt")
+    private char[] salt;
 
     @ManyToOne
-    @JoinColumn(name = "_rank", table = "general_info")
-    private URank rank;
-
-    public void setDepartment(String deptName) {
-        department.setDeptName(deptName);
-    }
-
-    public void setDepartment(Department deptName) {
-        department = deptName;
-    }
-
-    public void setAssignedRole(String roleName) {
-            userRole.setAssignedRole(roleName);
-    }
-
-    public void setAssignedRole(UserRole role) {
-        this.userRole = role;
-    }
-
-    public void setRank(String rankName) {
-        rank.setRank(rankName);
-    }
-
-    public void setRank(URank rank) {
-        this.rank = rank;
-    }
-
-    @ManyToOne
-    @JoinColumn(name = "_load", table = "general_info")
+    @JoinColumn(name = "_load")
     private CLoad load;
 
     @ManyToOne
-    @JoinColumn(name = "_status", table = "general_info")
+    @JoinColumn(name = "_rank")
+    private URank rank;
+
+    @ManyToOne
+    @JoinColumn(name = "_status")
     private UStatus status;
 
-    @Column(name = "jour_pubs", table = "research_scholarly")
+    @ManyToOne
+    @JoinColumn(name = "_dept", nullable = false)
+    private Department department;
+
+    @ManyToOne
+    @JoinColumn(name = "_user_role", nullable = false)
+    private UserRole userRole;
+
+    // feilds from research_scholarly
+
+    @Column(name = "jour_pubs")
     private int journals;
 
-    @Column(name = "conf_pubs", table = "research_scholarly")
+    @Column(name = "conf_pubs")
     private int conferences;
 
-    @Column(name = "books", table = "research_scholarly")
+    @Column(name = "books")
     private int books;
 
-    @Column(name = "chapters", table = "research_scholarly")
+    @Column(name = "chapters")
     private int chapters;
 
-    @Column(name = "grants", table = "research_scholarly")
+    @Column(name = "grants")
     private Long grants;
-    
-    @Column(name = "awards", table = "research_scholarly")
+	
+	@Column(name = "awards")
     private Long awards;
 
-    @Column(name = "res_exp_total", table = "research_scholarly")
+    @Column(name = "res_exp_total")
     private Long researchExperienceTotal;
 
-    @Column(name = "res_exp_students", table = "research_scholarly")
+    @Column(name = "res_exp_students")
     private Long researchExperienceStudents;
 
-    @Column(name = "phd_advised", table = "research_scholarly")
+    @Column(name = "phd_advised")
     private int phdAdvised;
 
-    @Column(name = "phd_completed", table = "research_scholarly")
+    @Column(name = "phd_completed")
     private int phdCompleted;
 
-    @Column(name = "ms_completed", table = "research_scholarly")
+    @Column(name = "ms_completed")
     private int msCompleted;
 
-    @Column(name = "patent_innovation", table = "research_scholarly")
+    @Column(name = "patent_innovation")
     private int patentInnovation;
 
-    @Column(name = "ug_mentored", table = "research_scholarly")
+    @Column(name = "ug_mentored")
     private int ugMentored;
 
-    @JsonManagedReference
+    // complex stuff
+	@JsonManagedReference
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Teaching> teaching;
 
-    @JsonManagedReference
+	@JsonManagedReference
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<UClasses> classes;
 
-    @JsonManagedReference
+	@JsonManagedReference
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<UServices> serviceActivity;
 }
