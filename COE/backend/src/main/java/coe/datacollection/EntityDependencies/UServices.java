@@ -10,7 +10,6 @@ import jakarta.persistence.Column;
 import jakarta.persistence.Table;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
-import jakarta.persistence.CascadeType;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 
 @Entity
@@ -27,7 +26,7 @@ public class UServices {
 	@JsonBackReference
     private User user;
 
-    @ManyToOne(cascade = CascadeType.ALL)
+    @ManyToOne
     @JoinColumn(name = "_semester")
     private Semester semester;
 

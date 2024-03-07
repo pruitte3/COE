@@ -8,7 +8,6 @@ import jakarta.persistence.Table;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
-import jakarta.persistence.CascadeType;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 
 @Entity // This tells Hibernate to make a table out of this class
@@ -21,7 +20,7 @@ public class Teaching {
     private User user;
 
     @Id
-    @ManyToOne(cascade = CascadeType.ALL)
+    @ManyToOne
     @JoinColumn(name = "_semester")
     private Semester semester;
 
