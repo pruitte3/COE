@@ -1,0 +1,249 @@
+2024-03-07T00:34:49.614-05:00  WARN 49856 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h4m29s111ms).
+2024-03-07T02:39:20.498-05:00  WARN 49856 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h4m30s885ms).
+2024-03-07T02:40:44.711-05:00  WARN 49856 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s692ms).
+2024-03-07T03:47:18.762-05:00  WARN 49856 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h5m51s655ms).
+2024-03-07T03:48:53.942-05:00  WARN 49856 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52s149ms).
+2024-03-07T03:49:46.646-05:00  WARN 49856 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52s703ms).
+2024-03-07T03:50:39.970-05:00  WARN 49856 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s325ms).
+2024-03-07T03:51:26.614-05:00  WARN 49856 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s644ms).
+2024-03-07T04:58:23.202-05:00  WARN 49856 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h6m56s588ms).
+2024-03-07T04:59:51.154-05:00  WARN 49856 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s931ms).
+2024-03-07T05:01:57.923-05:00  WARN 49856 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52s508ms).
+2024-03-07T06:01:14.340-05:00  WARN 49856 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59m16s418ms).
+2024-03-07T06:38:40.276-05:00  WARN 49856 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m22s336ms).
+2024-03-07T07:38:41.439-05:00  WARN 49856 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1s162ms).
+2024-03-07T07:56:16.304-05:00  INFO 49856 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-07T07:56:16.327-05:00  INFO 49856 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-07T07:56:16.345-05:00  INFO 49856 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-07T10:36:04.299-05:00  INFO 53883 --- [main] coe.datacollection.CoeApplication        : Starting CoeApplication using Java 21 with PID 53883 (/Users/ElizabethPruitt/Downloads/COE-initial/backend/target/classes started by ElizabethPruitt in /Users/ElizabethPruitt/Downloads/COE-initial)
+2024-03-07T10:36:04.301-05:00 DEBUG 53883 --- [main] coe.datacollection.CoeApplication        : Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-07T10:36:04.303-05:00  INFO 53883 --- [main] coe.datacollection.CoeApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-03-07T10:36:06.512-05:00  INFO 53883 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-07T10:36:06.635-05:00  INFO 53883 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 110 ms. Found 2 JPA repository interfaces.
+2024-03-07T10:36:08.089-05:00  INFO 53883 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-07T10:36:08.104-05:00  INFO 53883 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-07T10:36:08.105-05:00  INFO 53883 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-07T10:36:08.203-05:00  INFO 53883 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-07T10:36:08.203-05:00  INFO 53883 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3802 ms
+2024-03-07T10:36:08.648-05:00 DEBUG 53883 --- [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2024-03-07T10:36:08.865-05:00  INFO 53883 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-07T10:36:09.132-05:00  INFO 53883 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-07T10:36:09.268-05:00  INFO 53883 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-07T10:36:09.721-05:00  INFO 53883 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-07T10:36:09.768-05:00  INFO 53883 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-07T10:36:10.686-05:00  INFO 53883 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@361f26b4
+2024-03-07T10:36:10.693-05:00  INFO 53883 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-07T10:36:10.783-05:00  WARN 53883 --- [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-07T10:36:11.450-05:00  WARN 53883 --- [main] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): coe.datacollection.EntityDependencies.Teaching
+2024-03-07T10:36:11.453-05:00  WARN 53883 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): coe.datacollection.EntityDependencies.Teaching
+2024-03-07T10:36:13.071-05:00  INFO 53883 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-07T10:36:13.081-05:00  INFO 53883 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-07T10:36:14.210-05:00  INFO 53883 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-03-07T10:36:15.357-05:00  WARN 53883 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-07T10:36:15.426-05:00  WARN 53883 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: c4680275-b3ce-4d86-a7b4-b0b26b003268
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-03-07T10:36:15.697-05:00 DEBUG 53883 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 10 mappings in 'requestMappingHandlerMapping'
+2024-03-07T10:36:15.946-05:00 DEBUG 53883 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-03-07T10:36:16.251-05:00  INFO 53883 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-03-07T10:36:16.350-05:00  INFO 53883 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4f6938cb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@376ba8e3, org.springframework.security.web.context.SecurityContextHolderFilter@8dba70a, org.springframework.security.web.header.HeaderWriterFilter@5d63d553, org.springframework.web.filter.CorsFilter@5434de8, org.springframework.security.web.authentication.logout.LogoutFilter@2dd25088, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@41737438, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3d44f15d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2c84d6c4, org.springframework.security.web.access.ExceptionTranslationFilter@58fef400, org.springframework.security.web.access.intercept.AuthorizationFilter@6fad6743]
+2024-03-07T10:36:16.527-05:00 DEBUG 53883 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-03-07T10:36:16.564-05:00 DEBUG 53883 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-03-07T10:36:17.931-05:00  INFO 53883 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-03-07T10:36:17.970-05:00  INFO 53883 --- [main] coe.datacollection.CoeApplication        : Started CoeApplication in 14.385 seconds (process running for 15.092)
+2024-03-07T10:37:28.938-05:00  INFO 53883 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-07T10:37:28.942-05:00  INFO 53883 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-07T10:37:28.943-05:00 DEBUG 53883 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-03-07T10:37:28.945-05:00 DEBUG 53883 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-03-07T10:37:28.945-05:00 DEBUG 53883 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-03-07T10:37:28.955-05:00 DEBUG 53883 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@66b16770
+2024-03-07T10:37:28.957-05:00 DEBUG 53883 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@54b1ba04
+2024-03-07T10:37:28.960-05:00 DEBUG 53883 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-03-07T10:37:28.965-05:00  INFO 53883 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 22 ms
+2024-03-07T10:37:29.046-05:00 DEBUG 53883 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /api/login
+2024-03-07T10:37:29.116-05:00 DEBUG 53883 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /api/login
+2024-03-07T10:37:29.127-05:00 DEBUG 53883 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/api/login", parameters={}
+2024-03-07T10:37:29.131-05:00 DEBUG 53883 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to coe.datacollection.MainController#createAuthenticationToken(AuthenticationRequest)
+2024-03-07T10:37:29.423-05:00 DEBUG 53883 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [coe.datacollection.AuthenticationRequest@4a772560]
+2024-03-07T10:37:29.672-05:00 DEBUG 53883 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    /* <criteria> */ select
+        u1_0.uid,
+        u1_0._dept,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0._load,
+        u1_0.pin,
+        u1_0._rank,
+        u1_0._status,
+        u1_0._user_role,
+        u1_0.username,
+        u1_1.awards,
+        u1_1.books,
+        u1_1.chapters,
+        u1_1.conf_pubs,
+        u1_1.grants,
+        u1_1.jour_pubs,
+        u1_1.ms_completed,
+        u1_1.patent_innovation,
+        u1_1.phd_advised,
+        u1_1.phd_completed,
+        u1_1.res_exp_students,
+        u1_1.res_exp_total,
+        u1_1.ug_mentored 
+    from
+        general_info u1_0 
+    left join
+        research_scholarly u1_1 
+            on u1_0.uid=u1_1.uid 
+    where
+        u1_0.username=?
+2024-03-07T10:37:29.854-05:00 DEBUG 53883 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        d1_0.id,
+        d1_0._dept 
+    from
+        _dept d1_0 
+    where
+        d1_0.id=?
+2024-03-07T10:37:29.883-05:00 DEBUG 53883 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0._rank 
+    from
+        _rank u1_0 
+    where
+        u1_0.id=?
+2024-03-07T10:37:29.895-05:00 DEBUG 53883 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        ur1_0.id,
+        ur1_0._user_role 
+    from
+        _user_role ur1_0 
+    where
+        ur1_0.id=?
+2024-03-07T10:37:30.329-05:00 DEBUG 53883 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-03-07T10:37:30.332-05:00 DEBUG 53883 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [coe.datacollection.AuthenticationResponse@7d767f8c]
+2024-03-07T10:37:30.362-05:00 DEBUG 53883 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-03-07T10:37:30.364-05:00 DEBUG 53883 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-07T10:37:50.436-05:00  INFO 53883 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-07T10:37:50.464-05:00  INFO 53883 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-07T10:37:50.608-05:00  INFO 53883 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-07T11:44:18.678-05:00  INFO 28023 --- [main] coe.datacollection.CoeApplication        : Starting CoeApplication using Java 21 with PID 28023 (/Users/ElizabethPruitt/Downloads/COE-initial/backend/target/classes started by ElizabethPruitt in /Users/ElizabethPruitt/Downloads/COE-initial)
+2024-03-07T11:44:18.681-05:00 DEBUG 28023 --- [main] coe.datacollection.CoeApplication        : Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-07T11:44:18.682-05:00  INFO 28023 --- [main] coe.datacollection.CoeApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-03-07T11:44:20.486-05:00  INFO 28023 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-07T11:44:20.595-05:00  INFO 28023 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 99 ms. Found 2 JPA repository interfaces.
+2024-03-07T11:44:21.907-05:00  INFO 28023 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-07T11:44:21.921-05:00  INFO 28023 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-07T11:44:21.921-05:00  INFO 28023 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-07T11:44:22.010-05:00  INFO 28023 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-07T11:44:22.011-05:00  INFO 28023 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3224 ms
+2024-03-07T11:44:22.276-05:00 DEBUG 28023 --- [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2024-03-07T11:44:22.454-05:00  INFO 28023 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-07T11:44:22.594-05:00  INFO 28023 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-07T11:44:22.694-05:00  INFO 28023 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-07T11:44:22.916-05:00  INFO 28023 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-07T11:44:22.941-05:00  INFO 28023 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-07T11:44:23.472-05:00  INFO 28023 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5e020dd1
+2024-03-07T11:44:23.475-05:00  INFO 28023 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-07T11:44:23.545-05:00  WARN 28023 --- [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-07T11:44:24.028-05:00  WARN 28023 --- [main] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): coe.datacollection.EntityDependencies.Teaching
+2024-03-07T11:44:24.030-05:00  WARN 28023 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): coe.datacollection.EntityDependencies.Teaching
+2024-03-07T11:44:25.186-05:00  INFO 28023 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-07T11:44:25.195-05:00  INFO 28023 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-07T11:44:26.036-05:00  INFO 28023 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-03-07T11:44:26.689-05:00  WARN 28023 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-07T11:44:26.733-05:00  WARN 28023 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 5edbe510-85e9-47ef-946b-52e7a2867ab6
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-03-07T11:44:26.902-05:00 DEBUG 28023 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2024-03-07T11:44:27.056-05:00 DEBUG 28023 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-03-07T11:44:27.259-05:00  INFO 28023 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-03-07T11:44:27.325-05:00  INFO 28023 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5d9576a0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@418f3cde, org.springframework.security.web.context.SecurityContextHolderFilter@75be3cdf, org.springframework.security.web.header.HeaderWriterFilter@7307e418, org.springframework.web.filter.CorsFilter@7ef3b7ac, org.springframework.security.web.authentication.logout.LogoutFilter@2cf7ada5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3f19f197, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@77d5395a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@720da195, org.springframework.security.web.access.ExceptionTranslationFilter@247246ea, org.springframework.security.web.access.intercept.AuthorizationFilter@136dc728]
+2024-03-07T11:44:27.440-05:00 DEBUG 28023 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-03-07T11:44:27.469-05:00 DEBUG 28023 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-03-07T11:44:28.402-05:00  INFO 28023 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-03-07T11:44:28.428-05:00  INFO 28023 --- [main] coe.datacollection.CoeApplication        : Started CoeApplication in 10.431 seconds (process running for 11.111)
+2024-03-07T11:45:25.137-05:00  INFO 28023 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-07T11:45:25.139-05:00  INFO 28023 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-07T11:45:25.139-05:00 DEBUG 28023 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-03-07T11:45:25.139-05:00 DEBUG 28023 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-03-07T11:45:25.139-05:00 DEBUG 28023 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-03-07T11:45:25.143-05:00 DEBUG 28023 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6cddb04c
+2024-03-07T11:45:25.144-05:00 DEBUG 28023 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@690b6292
+2024-03-07T11:45:25.145-05:00 DEBUG 28023 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-03-07T11:45:25.148-05:00  INFO 28023 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2024-03-07T11:45:25.184-05:00 DEBUG 28023 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /api/login
+2024-03-07T11:45:25.223-05:00 DEBUG 28023 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /api/login
+2024-03-07T11:45:25.227-05:00 DEBUG 28023 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/api/login", parameters={}
+2024-03-07T11:45:25.229-05:00 DEBUG 28023 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to coe.datacollection.MainController#createAuthenticationToken(AuthenticationRequest)
+2024-03-07T11:45:25.315-05:00 DEBUG 28023 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [coe.datacollection.AuthenticationRequest@6f14e601]
+2024-03-07T11:45:25.432-05:00 DEBUG 28023 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    /* <criteria> */ select
+        u1_0.uid,
+        u1_0._dept,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0._load,
+        u1_0.pin,
+        u1_0._rank,
+        u1_0._status,
+        u1_0._user_role,
+        u1_0.username,
+        u1_1.awards,
+        u1_1.books,
+        u1_1.chapters,
+        u1_1.conf_pubs,
+        u1_1.grants,
+        u1_1.jour_pubs,
+        u1_1.ms_completed,
+        u1_1.patent_innovation,
+        u1_1.phd_advised,
+        u1_1.phd_completed,
+        u1_1.res_exp_students,
+        u1_1.res_exp_total,
+        u1_1.ug_mentored 
+    from
+        general_info u1_0 
+    left join
+        research_scholarly u1_1 
+            on u1_0.uid=u1_1.uid 
+    where
+        u1_0.username=?
+2024-03-07T11:45:25.478-05:00 DEBUG 28023 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        d1_0.id,
+        d1_0._dept 
+    from
+        _dept d1_0 
+    where
+        d1_0.id=?
+2024-03-07T11:45:25.490-05:00 DEBUG 28023 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0._rank 
+    from
+        _rank u1_0 
+    where
+        u1_0.id=?
+2024-03-07T11:45:25.494-05:00 DEBUG 28023 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        ur1_0.id,
+        ur1_0._user_role 
+    from
+        _user_role ur1_0 
+    where
+        ur1_0.id=?
+2024-03-07T11:45:25.650-05:00 DEBUG 28023 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-03-07T11:45:25.652-05:00 DEBUG 28023 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [coe.datacollection.AuthenticationResponse@62e5764a]
+2024-03-07T11:45:25.659-05:00 DEBUG 28023 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-03-07T11:45:25.660-05:00 DEBUG 28023 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-07T11:45:49.855-05:00  INFO 28023 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-07T11:45:49.861-05:00  INFO 28023 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-07T11:45:49.871-05:00  INFO 28023 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
